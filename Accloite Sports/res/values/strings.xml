@@ -11,5 +11,19 @@
     <string name="mainActivity">Main Activity</string>
     <string name="broadcastIntent">Broadcast Intent</string>
     <string name="underConstruction">This Page is under Construction</string>
+    <string name="teamRegister">Register Team</string>
+    <string name="individualRegister">Individual Register</string>
+    <string name="name">Enter Name</string>
+    <string name="email">Enter email</string>
+    <string name="fussball">fussball</string>
+    <string name="carroms">carroms</string>
+    <string name="carromssingles">carroms singles</string>
+    <string name="chess">chess</string>
+    <string name="rulesText">Rules will be explained just before the game is played (by organizers).
+        Umpire Decision is Final 
+        </string>
+    
+    
+    
     
 </resources>

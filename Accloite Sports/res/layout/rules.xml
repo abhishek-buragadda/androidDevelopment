@@ -12,6 +12,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:text="@string/underConstruction" />
+        android:text="@string/rulesText"
+       	android:textSize="10pt" />
 
 </LinearLayout>

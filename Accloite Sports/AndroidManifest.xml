@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="19"
-        android:targetSdkVersion="19" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
 
     <application
         android:allowBackup="true"
@@ -34,13 +34,28 @@
             <intent-filter>
             </intent-filter>
         </activity>
-				<activity
+		<activity
             android:name="com.accolite.sports.Register"
             android:label="@string/register" >
             <intent-filter>
             </intent-filter>
         </activity>
+
+		<activity
+            android:name="com.accolite.sports.TeamEventRegister"
+            android:label="@string/teamRegister" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
 		
+		<activity
+            android:name="com.accolite.sports.IndividualEventRegister"
+            android:label="@string/individualRegister" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+		
+				
 		<service android:name="com.accolite.sports.MyService" />
 		<receiver android:name="com.accolite.sports.MyReceiver">
 	      <intent-filter>

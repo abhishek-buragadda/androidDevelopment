@@ -7,11 +7,15 @@
     tools:context="com.accolite.sports.Contacts"
     tools:ignore="MergeRootFrame" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"
-        android:text="@string/underConstruction" />
+    
+     <ListView
+        android:id="@+id/contactslistView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   >    	
+                	                     	                  	        
+	</ListView>
+   
+    
+    
 
 </LinearLayout>

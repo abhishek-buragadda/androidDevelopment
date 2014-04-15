@@ -95,8 +95,13 @@ public class MainActivity extends Activity {
       }
      public void register(View view) {
     	 Intent activity2 = new Intent(getApplicationContext(),com.accolite.sports.Register.class);
+    	 
+    	 
          startActivity(activity2);    	 
       }
+     
+     
+     
 
      public void broadcastIntent(View view)
      {
